@@ -1,0 +1,4 @@
+CWWKG0030E: ibm:reference 拡張子にリストされた PID 参照 com.ibm.ws.jca.resourceAdapter が存在しません。
+CWWKG0030E: ibm:reference 拡張子にリストされた PID 参照 com.ibm.ws.sslchannel.options が存在しません。
+CWWKG0030E: ibm:reference 拡張子にリストされた PID 参照 com.ibm.ws.security.jca.internal.authdata.config が存在しません。
+CWWKG0109I: スキーマが [/Users/ryotokatagiri/hands-on/liberty-app2/target/.libertyls/ol-24.0.0.12.xsd] ファイルに作成されました。

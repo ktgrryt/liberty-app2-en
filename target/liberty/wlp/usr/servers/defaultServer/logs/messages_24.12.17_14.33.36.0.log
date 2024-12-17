@@ -1,0 +1,68 @@
+********************************************************************************
+product = Open Liberty 24.0.0.12 (wlp-1.0.96.cl241220241119-0657)
+wlp.install.dir = /Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/
+java.home = /opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home
+java.version = 17.0.13
+java.runtime = OpenJDK Runtime Environment (17.0.13+0)
+os = Mac OS X (15.1.1; aarch64) (ja_JP)
+process = 26939@469510760noMacBook-Pro.local
+Classpath = /Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/bin/tools/ws-server.jar
+Java Library path = /Users/ryotokatagiri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+********************************************************************************
+[2024/12/17 14:32:00:438 JST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: サーバー defaultServer が起動されました。
+[2024/12/17 14:32:00:638 JST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: カーネルは 0.325 秒 秒後に始動されました。
+[2024/12/17 14:32:00:641 JST] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: フィーチャー更新が開始しました。
+[2024/12/17 14:32:00:702 JST] 0000001d com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: アプリケーションの dropins をモニター中です。
+[2024/12/17 14:32:00:805 JST] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: アプリケーション liberty01 を開始中です。
+[2024/12/17 14:32:00:806 JST] 0000002e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: liberty01 アプリケーションは /Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/apps/liberty01.war.xml ロケーションにあるルーズ・アプリケーション定義を使用しています。
+[2024/12/17 14:32:00:951 JST] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN8501I: セッション・マネージャーが、永続ストレージ・ロケーションを検出しませんでした。HttpSession オブジェクトはローカル・アプリケーション・サーバーのメモリーに保管されます。
+[2024/12/17 14:32:00:955 JST] 0000002e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Web モジュールをロード中: liberty01。
+[2024/12/17 14:32:00:957 JST] 0000002e com.ibm.ws.webcontainer                                      I SRVE0250I: Web モジュール liberty01 は default_host にバインドされています。
+[2024/12/17 14:32:00:957 JST] 0000002e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web アプリケーションが使用可能です (default_host): http://localhost:9080/liberty01/
+[2024/12/17 14:32:00:972 JST] 00000031 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Web サーバー・プラグイン構成ファイルは、このサーバー用に、/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml に自動的に生成されました。
+[2024/12/17 14:32:00:992 JST] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN0176I: アプリケーション・キー default_host/liberty01 に新しいセッション・コンテキストが作成されます。
+[2024/12/17 14:32:00:994 JST] 00000030 com.ibm.ws.util                                              I SESN0172I: セッション・マネージャーは、セッション ID の生成に Java のデフォルト SecureRandom 実装を使用しています。
+[2024/12/17 14:32:01:013 JST] 00000030 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: アプリケーション liberty01 が 0.207 秒で開始しました。
+[2024/12/17 14:32:01:020 JST] 00000028 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP チャネル defaultHttpEndpoint が開始され、現在、ホスト localhost  (IPv4: 127.0.0.1)、ポート 9080 の要求を listen しています。
+[2024/12/17 14:32:01:023 JST] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: サーバーは次のフィーチャーをインストールしました。[expressionLanguage-4.0, pages-3.0, servlet-5.0]。
+[2024/12/17 14:32:01:023 JST] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: フィーチャー更新が 0.385 秒で完了しました。
+[2024/12/17 14:32:01:023 JST] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: defaultServer サーバーは、Smarter Planet に対応する準備ができました。defaultServer サーバーは 0.710 秒で始動しました。
+[2024/12/17 14:32:03:260 JST] 0000003b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web アプリケーションが削除されました (default_host): http://localhost:9080/liberty01/
+[2024/12/17 14:32:03:277 JST] 0000003b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: アプリケーション liberty01 は正常に停止しました。
+[2024/12/17 14:32:03:280 JST] 0000003b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: アプリケーション liberty01 を開始中です。
+[2024/12/17 14:32:03:280 JST] 0000003b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: liberty01 アプリケーションは /Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/apps/liberty01.war.xml ロケーションにあるルーズ・アプリケーション定義を使用しています。
+[2024/12/17 14:32:03:300 JST] 0000003b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Web モジュールをロード中: liberty01。
+[2024/12/17 14:32:03:300 JST] 0000003b com.ibm.ws.webcontainer                                      I SRVE0250I: Web モジュール liberty01 は default_host にバインドされています。
+[2024/12/17 14:32:03:300 JST] 0000003b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web アプリケーションが使用可能です (default_host): http://localhost:9080/liberty01/
+[2024/12/17 14:32:03:304 JST] 0000003d com.ibm.ws.session.WASSessionCore                            I SESN0176I: アプリケーション・キー default_host/liberty01 に新しいセッション・コンテキストが作成されます。
+[2024/12/17 14:32:03:305 JST] 0000003d com.ibm.ws.util                                              I SESN0172I: セッション・マネージャーは、セッション ID の生成に Java のデフォルト SecureRandom 実装を使用しています。
+[2024/12/17 14:32:03:309 JST] 0000003d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: アプリケーション liberty01 が 0.028 秒で更新されました。
+[2024/12/17 14:32:03:364 JST] 0000003c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Web サーバー・プラグイン構成ファイルは、このサーバー用に、/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml に自動的に生成されました。
+[2024/12/17 14:32:03:372 JST] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Web サーバー・プラグイン構成ファイルは、このサーバー用に、/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml に自動的に生成されました。
+[2024/12/17 14:32:09:305 JST] 00000032 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [liberty01] [/liberty01] [com.app2.servlet.IndexServlet]: 初期化が成功しました。
+[2024/12/17 14:32:09:537 JST] 00000032 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [liberty01] [/liberty01] [/IndexServlet.jsp]: 初期化が成功しました。
+[2024/12/17 14:32:13:271 JST] 00000038 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [liberty01] [/liberty01] [com.app2.servlet.DispServlet]: 初期化が成功しました。
+[2024/12/17 14:32:13:339 JST] 00000038 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [liberty01] [/liberty01] [/disp.jsp]: 初期化が成功しました。
+[2024/12/17 14:32:31:952 JST] 00000034 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web アプリケーションが削除されました (default_host): http://localhost:9080/liberty01/
+[2024/12/17 14:32:31:955 JST] 00000034 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [liberty01] [/liberty01] [/disp.jsp]: 破棄が成功しました。
+[2024/12/17 14:32:31:956 JST] 00000034 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [liberty01] [/liberty01] [com.app2.servlet.DispServlet]: 破棄が成功しました。
+[2024/12/17 14:32:31:956 JST] 00000034 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [liberty01] [/liberty01] [com.app2.servlet.IndexServlet]: 破棄が成功しました。
+[2024/12/17 14:32:31:957 JST] 00000034 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [liberty01] [/liberty01] [/IndexServlet.jsp]: 破棄が成功しました。
+[2024/12/17 14:32:31:964 JST] 00000034 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: アプリケーション liberty01 は正常に停止しました。
+[2024/12/17 14:32:31:968 JST] 00000034 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: アプリケーション liberty01 を開始中です。
+[2024/12/17 14:32:31:968 JST] 00000034 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: liberty01 アプリケーションは /Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/apps/liberty01.war.xml ロケーションにあるルーズ・アプリケーション定義を使用しています。
+[2024/12/17 14:32:31:980 JST] 0000003d com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Web サーバー・プラグイン構成ファイルは、このサーバー用に、/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml に自動的に生成されました。
+[2024/12/17 14:32:31:986 JST] 00000034 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Web モジュールをロード中: liberty01。
+[2024/12/17 14:32:31:987 JST] 00000034 com.ibm.ws.webcontainer                                      I SRVE0250I: Web モジュール liberty01 は default_host にバインドされています。
+[2024/12/17 14:32:31:987 JST] 00000034 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web アプリケーションが使用可能です (default_host): http://localhost:9080/liberty01/
+[2024/12/17 14:32:31:992 JST] 0000003a com.ibm.ws.session.WASSessionCore                            I SESN0176I: アプリケーション・キー default_host/liberty01 に新しいセッション・コンテキストが作成されます。
+[2024/12/17 14:32:31:992 JST] 0000003a com.ibm.ws.util                                              I SESN0172I: セッション・マネージャーは、セッション ID の生成に Java のデフォルト SecureRandom 実装を使用しています。
+[2024/12/17 14:32:31:997 JST] 0000003a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: アプリケーション liberty01 が 0.029 秒で更新されました。
+[2024/12/17 14:32:31:998 JST] 00000037 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Web サーバー・プラグイン構成ファイルは、このサーバー用に、/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml に自動的に生成されました。
+[2024/12/17 14:33:32:660 JST] 00000017 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: JVM が終了するため、サーバー defaultServer が停止しています。
+[2024/12/17 14:33:32:662 JST] 00000046 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: サーバーが静止するまで最大 30 秒待機します。
+[2024/12/17 14:33:32:665 JST] 00000043 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP チャネル defaultHttpEndpoint は、ホスト localhost  (IPv4: 127.0.0.1)、ポート 9080 での要求の listen を停止しました。
+[2024/12/17 14:33:32:666 JST] 00000043 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web アプリケーションが削除されました (default_host): http://localhost:9080/liberty01/
+[2024/12/17 14:33:32:667 JST] 00000046 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: サーバーの静止が完了しました。
+[2024/12/17 14:33:32:676 JST] 0000003f com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: アプリケーション liberty01 は正常に停止しました。
+[2024/12/17 14:33:32:765 JST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: 1 分, 32.453 秒後にサーバー defaultServer が停止しました。

@@ -1,0 +1,13 @@
+
+arg0=defaultServer
+arg1=--pid=
+arg2=--stop
+exit=1
+
+                 Java home:  /opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home
+              Install root:  /Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/
+          System libraries:  /Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/lib/
+                 User root:  /Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/
+                    Config:  /Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/
+                    Output:  /Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/
+
