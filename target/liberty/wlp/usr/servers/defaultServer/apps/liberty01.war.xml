@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive>
-    <dir sourceOnDisk="/Users/ryotokatagiri/hands-on/liberty-app2/src/main/webapp" targetInArchive="/"/>
-    <dir sourceOnDisk="/Users/ryotokatagiri/hands-on/liberty-app2/target/classes" targetInArchive="/WEB-INF/classes"/>
-    <file sourceOnDisk="/Users/ryotokatagiri/hands-on/liberty-app2/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+    <dir sourceOnDisk="/Users/ryotokatagiri/hands-on/liberty-app2-en/src/main/webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="/Users/ryotokatagiri/hands-on/liberty-app2-en/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/Users/ryotokatagiri/hands-on/liberty-app2-en/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
 </archive>

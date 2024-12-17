@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <liberty-plugin-config>
-    <installDirectory>/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp</installDirectory>
-    <serverDirectory>/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer</serverDirectory>
-    <userDirectory>/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr</userDirectory>
-    <serverOutputDirectory>/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer</serverOutputDirectory>
+    <installDirectory>/Users/ryotokatagiri/hands-on/liberty-app2-en/target/liberty/wlp</installDirectory>
+    <serverDirectory>/Users/ryotokatagiri/hands-on/liberty-app2-en/target/liberty/wlp/usr/servers/defaultServer</serverDirectory>
+    <userDirectory>/Users/ryotokatagiri/hands-on/liberty-app2-en/target/liberty/wlp/usr</userDirectory>
+    <serverOutputDirectory>/Users/ryotokatagiri/hands-on/liberty-app2-en/target/liberty/wlp/usr/servers/defaultServer</serverOutputDirectory>
     <serverName>defaultServer</serverName>
-    <configDirectory>/Users/ryotokatagiri/hands-on/liberty-app2/src/main/liberty/config</configDirectory>
-    <configFile>/Users/ryotokatagiri/hands-on/liberty-app2/src/main/liberty/config/server.xml</configFile>
+    <configDirectory>/Users/ryotokatagiri/hands-on/liberty-app2-en/src/main/liberty/config</configDirectory>
+    <configFile>/Users/ryotokatagiri/hands-on/liberty-app2-en/src/main/liberty/config/server.xml</configFile>
     <appsDirectory>apps</appsDirectory>
     <looseApplication>true</looseApplication>
     <stripVersion>false</stripVersion>
@@ -19,8 +19,8 @@
         <type>zip</type>
     </assemblyArtifact>
     <assemblyArchive>/Users/ryotokatagiri/.m2/repository/io/openliberty/openliberty-kernel/24.0.0.12/openliberty-kernel-24.0.0.12.zip</assemblyArchive>
-    <assemblyInstallDirectory>/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty</assemblyInstallDirectory>
+    <assemblyInstallDirectory>/Users/ryotokatagiri/hands-on/liberty-app2-en/target/liberty</assemblyInstallDirectory>
     <refresh>false</refresh>
-    <installAppsConfigDropins>/Users/ryotokatagiri/hands-on/liberty-app2/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <installAppsConfigDropins>/Users/ryotokatagiri/hands-on/liberty-app2-en/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
     <projectType>war</projectType>
 </liberty-plugin-config>

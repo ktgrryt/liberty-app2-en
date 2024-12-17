@@ -1,0 +1,22 @@
+********************************************************************************
+product = Open Liberty 24.0.0.12 (wlp-1.0.96.cl241220241119-0657)
+wlp.install.dir = /Users/ryotokatagiri/hands-on/liberty-app2-en/target/liberty/wlp/
+java.home = /opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home
+java.version = 17.0.13
+java.runtime = OpenJDK Runtime Environment (17.0.13+0)
+os = Mac OS X (15.1.1; aarch64) (ja_JP)
+process = 3437@469510760noMacBook-Pro.local
+Classpath = /Users/ryotokatagiri/hands-on/liberty-app2-en/target/liberty/wlp/bin/tools/ws-server.jar
+Java Library path = /Users/ryotokatagiri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+********************************************************************************
+[2024/12/17 17:43:43:695 JST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: サーバー defaultServer が起動されました。
+[2024/12/17 17:43:44:006 JST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: カーネルは 0.43 秒 秒後に始動されました。
+[2024/12/17 17:43:44:014 JST] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: フィーチャー更新が開始しました。
+[2024/12/17 17:43:44:016 JST] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            W CWWKF0009W: サーバーは、いずれのフィーチャーもインストールするようには構成されていません。
+[2024/12/17 17:43:44:035 JST] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: サーバーは次のフィーチャーをインストールしました。[]。
+[2024/12/17 17:43:44:035 JST] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: フィーチャー更新が 0.030 秒で完了しました。
+[2024/12/17 17:43:44:035 JST] 00000028 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: defaultServer サーバーは、Smarter Planet に対応する準備ができました。defaultServer サーバーは 0.460 秒で始動しました。
+[2024/12/17 17:44:40:592 JST] 00000017 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: JVM が終了するため、サーバー defaultServer が停止しています。
+[2024/12/17 17:44:40:595 JST] 00000041 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: サーバーが静止するまで最大 30 秒待機します。
+[2024/12/17 17:44:40:598 JST] 00000041 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: サーバーの静止が完了しました。
+[2024/12/17 17:44:40:629 JST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: 57.054 秒後にサーバー defaultServer が停止しました。
